@@ -1,4 +1,9 @@
-[hacluster]
+[act_nodes]
 rhel72-1
+
+[sby_nodes]
 rhel72-2
 
+[hacluster:children]
+act_nodes
+sby_nodes
